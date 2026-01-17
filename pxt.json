@@ -1,0 +1,23 @@
+{
+    "name": "lcd1602-i2c",
+    "version": "1.0.0",
+    "description": "I2C 16x2 LCD 확장 (MakeCode for micro:bit)",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "microbit": "*"
+    },
+    "files": [
+        "main.ts",
+        "a_display.ts",
+        "b_adv_display.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
